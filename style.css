@@ -492,9 +492,9 @@ footer .icone li a {
 }
 
 .grsphic-design, .photography{
-    padding: 0px 50px 35px;
+    padding: 0px 35px 50px;
     width: 100%;
-    height: 500px;
+    height: 400px;
 }
 
 
@@ -505,7 +505,7 @@ footer .icone li a {
 
 .grsphic-design p,.photography p {
     font-size: 15px;
-    margin-top: 1em;
+    /* margin-top: 1em; */
 }
 
 .testemonial {
@@ -540,7 +540,7 @@ footer .icone li a {
     margin: 50px 0px 0px;
 }
 .paragraphe {
-    font-size: 1.4em;
+    font-size: 15px;
     margin: 7px;
 }
 
