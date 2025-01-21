@@ -1,0 +1,552 @@
+@font-face {
+    font-family: 'Borlow';
+    src: url(./font/BarlowSemiCondensed-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: "Fraunces";
+    src: url(./font/Fraunces_9pt_SuperSoft-Black.ttf);
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Borlow';
+}
+
+header {
+    background-image: url(./images/desktop/image-header.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+
+.navbar  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    padding: 1.3rem;
+    position:relative;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    font-size: 1.2rem;
+    gap: 1.7rem;
+}
+
+.menu li a {
+    text-transform: capitalize;
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 110px;
+    height: 40px;
+    border-radius: 45px;
+}
+
+.menu li .active {
+    background-color: #fff;
+    color: #1a1e27;
+}
+
+.menu li .active:hover {
+    background-color: #92d9f575;
+    color: white;
+}
+
+.menu-toggle {
+    display: none;
+}
+
+.menu-icon {
+    display: none;
+    position: relative;
+    width: 30px;
+    height: 20px;
+    cursor: pointer;
+} 
+
+.menu-icon span {
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.menu-icon span:nth-child(1) {
+    top: 0;
+  }
+  
+  .menu-icon span:nth-child(2) {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .menu-icon span:nth-child(3) {
+    bottom: 0;
+  }
+
+.title{
+    text-align: center;
+}
+
+.title h1 {
+    font-family: 'Fraunces';
+    font-size: 3rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: white;
+    margin-top: 80px;
+}
+
+.section1 {
+    width: 100%;
+    display: flex;
+}
+
+.section1 div {
+    width: 50%;
+}
+
+.Transform-your-brand {
+   padding: 7%; 
+   box-sizing: border-box;
+}
+
+
+.Transform-your-brand h1 {
+    font-family: 'Fraunces';
+    font-size: 3em ;
+    font-weight: bold;
+    color: #1a1e27;
+    margin: 0;
+}
+.Transform-your-brand p{
+    font-size: 1.1em;
+    line-height: 1.3;
+}
+.Transform-your-brand h4 {
+    display: inline;
+    font-family: 'Fraunces';
+   font-weight: bold; 
+   color: #1a1e27;
+}
+.Transform-your-brand h4:hover {
+    border-bottom: 5px solid yellow;
+}
+
+.Transform-your-brand-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.section2 {
+    display: flex;
+    width: 100%;
+}
+
+.section2 div {
+    width: 50%;
+}
+
+#stand-out-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.stand-out-text {
+    padding: 7%;
+    box-sizing: border-box;
+}
+
+.stand-out-text h1 {
+    font-family: 'Fraunces';
+    font-size: 3em ;
+    font-weight: bold;
+    color: #1a1e27;
+}
+.stand-out-text p {
+    font-size: 1.1em;
+    line-height: 1.3;
+}
+.stand-out-text h4 {
+    font-family: 'Fraunces';
+    display: inline;
+   font-weight: bold; 
+   color: #1a1e27;
+}
+.stand-out-text h4:hover {
+    border-bottom: 5px solid #fe7261;
+} 
+
+.section3 {
+    display: flex;
+    width: 100%;
+}
+
+.grsphic-design {
+    background-image: url(./images/desktop/image-graphic-design.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0px 150px 100px;
+    width: 50%;
+    height: 600px;
+    box-sizing: border-box;
+}
+
+
+.photography {
+    background-image: url(./images/desktop/image-photography.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0px 150px 100px;
+    width: 50%;
+    height: 600px;
+    box-sizing: border-box;
+}
+
+.grsphic-design h2,.photography h2 {
+    margin: 0;
+}
+
+.testemonial {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #83828a;
+    padding: 90px 120px;
+
+}
+
+.title-testemonial {
+    font-size: 1.35em;
+    font-weight: bolder;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    margin-bottom: 30px;
+}
+
+.testemonial-personne {
+    display: flex;
+    gap: 50px;
+}
+
+.testemonial img {
+    border-radius: 50%;
+}
+
+.testemonial  h4 {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #1a1e27;
+    margin: 50px 0px 0px;
+}
+.testemonial  p {
+    margin: 7px;
+}
+
+.produit {
+    width: 100%;
+    height: auto;
+    display: flex;
+  
+}
+
+footer {
+    display: flex;
+    place-items: center;
+    flex-direction: column;
+    background-color: #5fa799;
+    color:  #26554d;
+}
+
+footer .nav {
+    display: flex;
+    text-align: center;
+    list-style: none;
+    column-gap: 35px;
+}
+
+footer .nav li {
+    font-size: 1.3em;
+    font-weight: 700;
+    color: #26554d;
+}
+
+footer .nav li a {
+    text-decoration:none ;
+    color: inherit;
+    cursor: pointer;
+    transition: .5s ease;
+}
+
+.nav li a:hover {
+    color: white;
+}
+
+footer .icone {
+    display: flex;
+    text-align: center;
+    list-style: none;
+    column-gap: 35px;
+    margin: 40px 0px 70px 0px;
+}
+
+footer .icone li {
+    font-size: 1.3em;
+    font-weight: 700;
+    color: #26554d;
+}
+
+footer .icone li a {
+    text-decoration:none ;
+    color: inherit;
+    cursor: pointer;
+    transition: .5s ease;
+}
+
+.icone li a:hover {
+    color: white;
+}
+
+/* media queris */
+
+@media screen  and (max-width: 1024px) {
+
+    .title h1 {
+        margin: 30px 20px;
+        margin-bottom: 20px;
+    }
+
+    .Transform-your-brand, .stand-out-text{
+        padding: 5%;
+    }
+
+    .grsphic-design,.photography {
+        height: 400px;
+        padding: 0px 70px 45px;
+    }
+
+    .testemonial {
+        padding: 30px 90px;
+    }
+    .testemonial-personne {
+        gap: 30px;
+    }
+    .testemonial  h4 {
+        margin: 25px 0px 0px;
+    }
+    
+}
+
+@media screen  and (max-width: 600px) { 
+
+
+    .menu {
+        display: none;
+        flex-direction: column;
+        background-color: white;
+        color: #1a1e27;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        width: 100%;
+        text-align: center;
+        height: 320px;
+        gap: 40px;
+    }
+    
+    .menu li .active {
+        background-color: yellow;
+        color: white;
+    }
+    
+    .menu li .active:hover {
+        background-color: #92d9f575;
+        color: white;
+    }
+    .menu-icon {
+        display: block;
+    }
+
+    .menu-toggle:checked ~ .menu {
+        display: flex;
+    }
+
+    .menu-toggle:checked ~ .menu-icon span:nth-child(1) {
+        transform: rotate(45deg);
+        top: 50%;
+      }
+    
+      .menu-toggle:checked ~ .menu-icon span:nth-child(2) {
+        opacity: 0;
+      }
+    
+      .menu-toggle:checked ~ .menu-icon span:nth-child(3) {
+        transform: rotate(-45deg);
+        bottom: 50%;
+      }
+
+
+
+   
+    
+.section1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.section1 div {
+    width: 100%;
+}
+
+.Transform-your-brand {
+    text-align: center;
+   padding: 10%; 
+   box-sizing: border-box;
+}
+
+.Transform-your-brand h1 {
+    font-size: 2em ;
+}
+
+.Transform-your-brand p{
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin: 50px;
+}
+
+.Transform-your-brand  h4 {
+    font-size: 1.3em;
+}
+
+.section2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.section2 div {
+    width: 100%;
+}
+
+.stand-out-text {
+    text-align: center;
+   padding: 10%; 
+   box-sizing: border-box;
+}
+
+.stand-out-text h1 {
+    font-size: 2em ;
+}
+
+.stand-out-text p{
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin: 50px;
+}
+
+.stand-out-text  h4 {
+    font-size: 1.3em;
+}
+
+.section3 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.grsphic-design, .photography{
+    padding: 0px 50px 35px;
+    width: 100%;
+    height: 500px;
+}
+
+
+.grsphic-design h2,.photography h2 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.grsphic-design p,.photography p {
+    font-size: 1.4em;
+    margin-top: 1em;
+}
+
+.testemonial {
+
+    padding: 90px 50px;
+
+}
+
+.title-testemonial {
+    font-size: 1em;
+    font-weight: bolder;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-bottom: 30p;
+}
+
+.testemonial-personne {
+    display: flex;
+    flex-direction: column;
+}
+
+.testemonial img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.testemonial  h4 {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #1a1e27;
+    margin: 50px 0px 0px;
+}
+.paragraphe {
+    font-size: 1.4em;
+    margin: 7px;
+}
+
+.produit {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.produit div {
+    width:50%;
+}
+}
+
