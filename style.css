@@ -358,7 +358,7 @@ footer .icone li a {
 
     .grsphic-design,.photography {
         height: 400px;
-        padding: 0px 70px 45px;
+        padding: 0px 25px 45px;
     }
 
     .testemonial {
@@ -420,6 +420,10 @@ footer .icone li a {
         transform: rotate(-45deg);
         bottom: 50%;
       }
+    
+    .title h1 {
+        font-size: 3rem;
+    }
 
 .section1 {
     width: 100%;
@@ -433,7 +437,7 @@ footer .icone li a {
 
 .Transform-your-brand {
     text-align: center;
-   padding: 15%; 
+   padding: 12%; 
    box-sizing: border-box;
 }
 
@@ -463,7 +467,7 @@ footer .icone li a {
 
 .stand-out-text {
     text-align: center;
-   padding: 15%; 
+   padding: 12%; 
    box-sizing: border-box;
 }
 
@@ -500,7 +504,7 @@ footer .icone li a {
 }
 
 .grsphic-design p,.photography p {
-    font-size: 1.2em;
+    font-size: 15px;
     margin-top: 1em;
 }
 
