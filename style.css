@@ -292,13 +292,18 @@ footer {
     flex-direction: column;
     background-color: #5fa799;
     color:  #26554d;
-}
+   
+} 
 
 footer .nav {
     display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     list-style: none;
     column-gap: 35px;
+    padding: 0px 35px;
+
 }
 
 footer .nav li {
@@ -323,7 +328,7 @@ footer .icone {
     text-align: center;
     list-style: none;
     column-gap: 35px;
-    margin: 40px 0px 70px 0px;
+    padding: 0px 35px;
 }
 
 footer .icone li {
